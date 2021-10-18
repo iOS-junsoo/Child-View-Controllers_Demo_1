@@ -13,6 +13,8 @@
 		991FE26B271DA19100049D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991FE269271DA19100049D94 /* Main.storyboard */; };
 		991FE26D271DA19400049D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991FE26C271DA19400049D94 /* Assets.xcassets */; };
 		991FE270271DA19400049D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991FE26E271DA19400049D94 /* LaunchScreen.storyboard */; };
+		991FE278271DA1B800049D94 /* FirstChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FE277271DA1B800049D94 /* FirstChildViewController.swift */; };
+		991FE27A271DA1C100049D94 /* SecondChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FE279271DA1C100049D94 /* SecondChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		991FE26C271DA19400049D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991FE26F271DA19400049D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		991FE271271DA19400049D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991FE277271DA1B800049D94 /* FirstChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChildViewController.swift; sourceTree = "<group>"; };
+		991FE279271DA1C100049D94 /* SecondChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChildViewController.swift; sourceTree = "<group>"; };
+		991FE27B271DA37200049D94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +63,14 @@
 			children = (
 				991FE263271DA19100049D94 /* AppDelegate.swift */,
 				991FE265271DA19100049D94 /* SceneDelegate.swift */,
-				991FE267271DA19100049D94 /* ViewController.swift */,
 				991FE269271DA19100049D94 /* Main.storyboard */,
 				991FE26C271DA19400049D94 /* Assets.xcassets */,
 				991FE26E271DA19400049D94 /* LaunchScreen.storyboard */,
 				991FE271271DA19400049D94 /* Info.plist */,
+				991FE267271DA19100049D94 /* ViewController.swift */,
+				991FE277271DA1B800049D94 /* FirstChildViewController.swift */,
+				991FE279271DA1C100049D94 /* SecondChildViewController.swift */,
+				991FE27B271DA37200049D94 /* README.md */,
 			);
 			path = "Child View Controllers_Demo";
 			sourceTree = "<group>";
@@ -139,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				991FE268271DA19100049D94 /* ViewController.swift in Sources */,
+				991FE278271DA1B800049D94 /* FirstChildViewController.swift in Sources */,
 				991FE264271DA19100049D94 /* AppDelegate.swift in Sources */,
 				991FE266271DA19100049D94 /* SceneDelegate.swift in Sources */,
+				991FE27A271DA1C100049D94 /* SecondChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
